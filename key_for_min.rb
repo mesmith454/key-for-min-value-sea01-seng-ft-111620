@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   min = 50
-  name_hash.each do |key, value|
+  name_hash.each do |name, small|
     if hash[key][value] < min
       min = hash[key]
     end
